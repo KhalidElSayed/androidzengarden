@@ -3,13 +3,11 @@ package zen.garden;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class Garden extends Activity
-{
-    /** Called when the activity is first created. */
+public class Dashboard extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.dashboard);
     }
 }
